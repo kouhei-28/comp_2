@@ -2,3 +2,33 @@ img{
   max-width: 100%;
   vertical-align: bottom;
 }
+header{
+  height: 96px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 12%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+}
+.header-logo{
+  font-family: Noto Serif;
+  font-weight: bold;
+  font-size: 26px;
+  font-style: italic;
+}
+.pc-nav{
+  height: 22px;
+}
+.pc-ul{
+  display: flex;
+  justify-content: space-between;
+  width: 349px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+}
