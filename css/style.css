@@ -1,3 +1,10 @@
+html{
+}
+body{
+  letter-spacing: 0.05em;
+  font-family: 'Noto Serif', 'Noto Serif JP', serif;
+}
+
 img{
   max-width: 100%;
   vertical-align: bottom;
@@ -15,11 +22,9 @@ header{
   color: white;
 }
 .header-logo{
-  font-family: Noto Serif;
   font-weight: bold;
   font-size: 26px;
   font-style: italic;
-  letter-spacing: 0.05em;
 }
 .pc-nav{
   height: 22px;
@@ -31,7 +36,6 @@ header{
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
-  letter-spacing: 0.05em;
 }
 #top{
   background-image: url("../img/fv-bgi_01@2x.jpg");
@@ -47,17 +51,13 @@ header{
 }
 .top-content h1{
   color: white;
-  font-family: Noto Serif;
   font-size: 70px;
   font-weight: bold;
-  letter-spacing: 0.05em;
 }
 .top-content p{
   color: white;
-  font-family: Noto Serif JP;
   font-size: 40px;
   font-weight: bold;
   margin-top: 23px;
   margin-left: 40px;
-  letter-spacing: 0.05em;
 }
