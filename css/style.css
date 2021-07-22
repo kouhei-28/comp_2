@@ -1,6 +1,8 @@
 html{
+  font-size: 62.5%;
 }
 body{
+  font-size: 1.6rem;
   letter-spacing: 0.05em;
   font-family: 'Noto Serif', 'Noto Serif JP', serif;
 }
@@ -23,7 +25,7 @@ header{
 }
 .header-logo{
   font-weight: bold;
-  font-size: 26px;
+  font-size: 2.6rem;
   font-style: italic;
 }
 .pc-nav{
@@ -33,7 +35,6 @@ header{
   display: flex;
   justify-content: space-between;
   width: 349px;
-  font-size: 16px;
   font-weight: bold;
   font-style: italic;
 }
@@ -51,12 +52,12 @@ header{
 }
 .top-content h1{
   color: white;
-  font-size: 70px;
+  font-size: 7rem;
   font-weight: bold;
 }
 .top-content p{
   color: white;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   margin-top: 23px;
   margin-left: 40px;
