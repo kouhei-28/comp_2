@@ -1,17 +1,17 @@
-html{
+html {
   font-size: 62.5%;
 }
-body{
+body {
   font-size: 1.6rem;
   letter-spacing: 0.05em;
-  font-family: 'Noto Serif', 'Noto Serif JP', serif;
+  font-family: "Noto Serif", "Noto Serif JP", serif;
 }
 
-img{
+img {
   max-width: 100%;
   vertical-align: bottom;
 }
-header{
+header {
   height: 96px;
   width: 100%;
   display: flex;
@@ -23,39 +23,39 @@ header{
   left: 0;
   color: white;
 }
-.header-logo{
+.header-logo {
   font-weight: bold;
   font-size: 2.6rem;
   font-style: italic;
 }
-.pc-nav{
+.pc-nav {
   height: 22px;
 }
-.pc-ul{
+.pc-ul {
   display: flex;
   justify-content: space-between;
   width: 349px;
   font-weight: bold;
   font-style: italic;
 }
-#top{
+#top {
   background-image: url("../img/fv-bgi_01@2x.jpg");
   width: 100%;
   height: 752px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.top-content{
+.top-content {
   position: absolute;
   left: 12%;
   top: 409px;
 }
-.top-content h1{
+.top-content h1 {
   color: white;
   font-size: 7rem;
   font-weight: bold;
 }
-.top-content p{
+.top-content p {
   color: white;
   font-size: 4rem;
   font-weight: bold;
