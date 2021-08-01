@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 {
   let mySwiper = new Swiper(".swiper-container", {
