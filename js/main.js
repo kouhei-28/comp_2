@@ -24,8 +24,6 @@
   };
 
   function callback(entries) {
-    console.log(entries[0]);
-
     if (entries[0].isIntersecting) {
       document.querySelector("header").classList.remove("header-color");
     } else {
