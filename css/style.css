@@ -138,3 +138,52 @@ header {
 .concept-subtitle {
   text-align: right;
 }
+#works {
+  background-image: url("../img/works-bgi@2x.jpg");
+  width: 100%;
+  height: 986px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.works-title {
+  color: white;
+  text-align: right;
+  margin-bottom: 80px;
+}
+.works-title::after {
+  background-color: white;
+}
+.works-content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.works-card {
+  width: 320px;
+  height: 334px;
+}
+.img-wrapper_works {
+  /* height: 200px; */
+}
+.text-wrapper_works {
+  background-color: white;
+  padding: 25px 20px;
+}
+.button-works {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.button-works button {
+  width: 235px;
+  height: 59px;
+  background-color: #f7d43f;
+  line-height: 59px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.works-subtitle {
+  color: rgba(255, 255, 255, 0.1);
+}
