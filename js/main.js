@@ -16,4 +16,24 @@
       el: ".swiper-scrollbar",
     },
   });
+
+  const target = document.getElementById("top");
+  const options = {
+    threshold: 0,
+    rootMargin: "-120px 0px 0px 0px",
+  };
+
+  function callback(entries) {
+    console.log(entries[0]);
+
+    if (entries[0].isIntersecting) {
+      document.querySelector("header").classList.remove("header-color");
+    } else {
+      document.querySelector("header").classList.add("header-color");
+    }
+  }
+
+  const observer = new IntersectionObserver(callback, options);
+
+  observer.observe(target);
 }
