@@ -85,10 +85,6 @@ header {
   margin-top: 23px;
   margin-left: 40px;
 }
-#concept {
-  width: 100%;
-  height: 909px;
-}
 .section-wrapper {
   padding: 100px 0 70px 0;
 }
@@ -134,6 +130,10 @@ header {
   margin-left: 120px;
   color: rgba(255, 255, 255, 0.1);
 }
+#concept {
+  width: 100%;
+  /* height: 909px; */
+}
 .concept-document {
   width: 600px;
   height: 95px;
@@ -165,9 +165,12 @@ header {
 #works {
   background-image: url("../img/works-bgi@2x.jpg");
   width: 100%;
-  height: 986px;
+  /* height: 986px; */
   background-size: cover;
   background-repeat: no-repeat;
+}
+.works-title {
+  margin-top: 5px;
 }
 .works-content {
   display: flex;
@@ -191,7 +194,7 @@ header {
   justify-content: center;
   margin-top: 80px;
 }
-.button-works button {
+button {
   width: 235px;
   height: 59px;
   background-color: #f7d43f;
@@ -201,7 +204,7 @@ header {
   text-align: center;
 }
 #service {
-  height: 830px;
+  /* height: 830px; */
   width: 100%;
 }
 .service-wrapper {
@@ -243,4 +246,25 @@ header {
   background-image: url("../img/service-img03@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+#contact {
+  background-image: url("../img/contact-bgi@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height: 666px; */
+}
+.contact-title {
+  margin-top: 10px;
+}
+.contact-document {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.button-contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
