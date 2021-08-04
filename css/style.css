@@ -157,10 +157,9 @@ header {
 .img-wrapper_concept {
   width: 440px;
   height: 240px;
-}
-.img-wrapper_concept img {
-  width: 440px;
-  height: 240px;
+  background-image: url("../img/concept-image@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #works {
   background-image: url("../img/works-bgi@2x.jpg");
@@ -182,8 +181,23 @@ header {
   width: 320px;
   height: 334px;
 }
-.img-wrapper_works {
-  /* height: 200px; */
+.works-card:nth-of-type(1) .img-wrapper_works {
+  background-image: url("../img/card-img01@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
+}
+.works-card:nth-of-type(2) .img-wrapper_works {
+  background-image: url("../img/card-img02@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
+}
+.works-card:nth-of-type(3) .img-wrapper_works {
+  background-image: url("../img/card-img03@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
 }
 .text-wrapper_works {
   background-color: white;
