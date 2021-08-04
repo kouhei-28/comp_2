@@ -323,4 +323,27 @@ footer p {
     margin: 0;
     text-align: center;
   }
+  .wrapper-title {
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  .wrapper-title::after {
+    width: 90px;
+  }
+  .wrapper-subtitle {
+    font-size: 4rem;
+    margin-top: 40px;
+  }
+  .content:nth-of-type(even) .wrapper-title {
+    margin-left: 15px;
+  }
+  .content:nth-of-type(odd) .wrapper-title {
+    margin-right: 15px;
+  }
+  .content:nth-of-type(even) .wrapper-subtitle {
+    margin-right: 15px;
+  }
+  .content:nth-of-type(odd) .wrapper-subtitle {
+    margin-left: 15px;
+  }
 }
