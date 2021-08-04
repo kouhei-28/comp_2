@@ -141,6 +141,7 @@ header {
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
+  line-height: 1.7;
 }
 .concept-content {
   margin-left: 220px;
@@ -153,6 +154,7 @@ header {
   margin-right: 120px;
   width: 440px;
   height: 140px;
+  line-height: 2;
 }
 .img-wrapper_concept {
   width: 440px;
@@ -202,6 +204,7 @@ header {
 .text-wrapper_works {
   background-color: white;
   padding: 25px 20px;
+  line-height: 2;
 }
 .button-works {
   display: flex;
