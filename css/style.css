@@ -106,13 +106,13 @@ header {
   vertical-align: middle;
 }
 .content:nth-of-type(even) .wrapper-title {
-  margin-left: 220px;
+  margin-left: 16%;
 }
 .content:nth-of-type(even) .wrapper-title::after {
   background-color: black;
 }
 .content:nth-of-type(odd) .wrapper-title {
-  margin-right: 120px;
+  margin-right: 8%;
   text-align: right;
   color: white;
 }
@@ -125,12 +125,12 @@ header {
   margin-top: 70px;
 }
 .content:nth-of-type(even) .wrapper-subtitle {
-  margin-right: 120px;
+  margin-right: 8%;
   color: rgba(23, 23, 23, 0.05);
   text-align: right;
 }
 .content:nth-of-type(odd) .wrapper-subtitle {
-  margin-left: 120px;
+  margin-left: 8%;
   color: rgba(255, 255, 255, 0.1);
 }
 #concept {
@@ -147,16 +147,15 @@ header {
   line-height: 1.7;
 }
 .concept-content {
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: 16%;
+  margin-right: 16%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .text-wrapper_concept {
-  margin-top: 47px;
-  margin-right: 120px;
+  margin-right: 8%;
   width: 440px;
-  height: 140px;
   line-height: 2;
 }
 .img-wrapper_concept {
@@ -180,35 +179,41 @@ header {
 .works-content {
   display: flex;
   justify-content: space-between;
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: 16%;
+  margin-right: 16%;
 }
 .works-card {
   width: 320px;
+}
+.works-card:nth-of-type(2) {
+  margin: 0 20px;
 }
 .works-card:nth-of-type(1) .img-wrapper_works {
   background-image: url("../img/card-img01@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 220px;
 }
 .works-card:nth-of-type(2) .img-wrapper_works {
   background-image: url("../img/card-img02@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 220px;
 }
 .works-card:nth-of-type(3) .img-wrapper_works {
   background-image: url("../img/card-img03@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 220px;
 }
 .text-wrapper_works {
   background-color: white;
   padding: 25px 20px;
   line-height: 2;
-  height: 135px;
+  /* height: 135px; */
 }
 .button-works {
   display: flex;
@@ -257,16 +262,19 @@ button {
   background-image: url("../img/service-img01@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .service-card:nth-of-type(2) {
   background-image: url("../img/service-img02@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .service-card:nth-of-type(3) {
   background-image: url("../img/service-img03@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 #contact {
   background-image: url("../img/contact-bgi@2x.jpg");
@@ -302,7 +310,28 @@ footer p {
   font-size: 1.4rem;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1000px) {
+  .content:nth-of-type(even) .wrapper-title {
+    margin-left: 15px;
+  }
+  .content:nth-of-type(odd) .wrapper-title {
+    margin-right: 15px;
+  }
+  .content:nth-of-type(even) .wrapper-subtitle {
+    margin-right: 15px;
+  }
+  .content:nth-of-type(odd) .wrapper-subtitle {
+    margin-left: 15px;
+  }
+  .concept-content {
+    margin: 0 15px 0 15px;
+  }
+  .works-content {
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 770px) {
   .swiper-slide {
     display: flex;
     justify-content: center;
