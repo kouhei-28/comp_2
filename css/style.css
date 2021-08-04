@@ -56,16 +56,19 @@ header {
   background-image: url("../img/fv-bgi_01@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .bg-slide-2 {
   background-image: url("../img/fv-bgi_02@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .bg-slide-3 {
   background-image: url("../img/fv-bgi_03@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .top-content {
   position: absolute;
@@ -295,4 +298,29 @@ footer {
 footer p {
   font-weight: bold;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1020px) {
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-content {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-content h1 {
+    font-size: 3.7rem;
+    margin-bottom: 53px;
+  }
+  .top-content p {
+    font-size: 3rem;
+    width: 250px;
+    margin: 0;
+    text-align: center;
+  }
 }
