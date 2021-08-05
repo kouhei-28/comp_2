@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/destyle.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
-  <script src="js/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/destyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo"><a href="../index.html">Cresta Design</a></div>
+      <nav class="pc-nav">
+        <ul class="pc-ul">
+          <li><a href="../index.html#concept">Concept</a></li>
+          <li><a href="../index.html#service">Service</a></li>
+          <li><a href="../index.html#works">Works</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <nav class="sp-nav">
+          <ul class="sp-ul">
+            <!-- <li><label for="menu"><a href="#about">About</a></label></li> -->
+            <li><a href="../index.html#concept">Concept</a></li>
+            <li><a href="../index.html#service">Service</a></li>
+            <li><a href="../index.html#works">Works</a></li>
+            <li><a href="../contact/index.html">Contacts</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <button class="toggle_btn">
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <div class="contact fv">
+        <div class="contact-content">
+          <h1>Contact</h1>
+        </div>
+        <div class="contact-subcontent">
+          <h2>Contact us</h2>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <p>お問い合わせ</p>
+          <div class="contact-checkbox">
+            <div class="checkbox-content">
+              <input type="checkbox" name="" id="siryou" />
+              <label for="siryou">資料請求</label>
+            </div>
+            <div class="checkbox-content">
+              <input type="checkbox" name="" id="dennwa" />
+              <label for="dennwa">お電話でのご相談を希望</label>
+            </div>
+            <div class="checkbox-content">
+              <input type="checkbox" name="" id="toiawase" />
+              <label for="toiawase">お問い合わせ</label>
+            </div>
+          </div>
+          <p>担当者名</p>
+          <input type="text" name="" id="" />
+          <p>電話番号</p>
+          <input type="text" name="" id="" />
+          <p>メールアドレス</p>
+          <input type="text" name="" id="" />
+          <p>その他</p>
+          <input type="textarea" name="" id="" />
+          <div class="form-button">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer><p>©︎cresta.design all rights reserved</p></footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

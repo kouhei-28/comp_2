@@ -17,7 +17,7 @@
     },
   });
 
-  const target = document.getElementById("top");
+  const target = document.querySelector(".fv");
   const options = {
     threshold: 0,
     rootMargin: "-120px 0px 0px 0px",
